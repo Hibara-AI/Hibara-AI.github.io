@@ -1,0 +1,108 @@
+
+a:hover {
+  color: #58c6ff;
+}
+
+.brand-logo{
+  position:absolute;
+  margin-top: 0.5em;
+}
+
+h4 {
+  font-family: serif;
+  font-style: oblique;
+}
+
+    article{
+      position: relative;
+      margin-top: 2em;
+    }
+    article > ul > li {
+        display: flex;
+        margin: 0 1em;
+        list-style-type: none;
+        padding: 1.5em 0;
+    }
+    article > ul > li:not(:last-child) {
+        border-width: 2px;
+        border-style: solid;
+        border-image: linear-gradient(to right, rgba(0,0,0,0.1), rgba(0,0,0,0.5), rgba(0, 0, 0, 0.1)) 100% 1;
+    }
+    article div ul {
+        padding-left: 2em;
+        margin-top: 1em;
+    }
+    article ul ul {
+        list-style-type: none;
+    }
+    article img {
+        width: 200px;
+        height: auto;
+        border-radius: 3px;
+        position: relative;
+        top: 0.5em;
+    }
+    article > ul > li > :nth-child(1) {
+        vertical-align: top;
+        margin: 0 1em;
+        flex: initial;
+    }
+    article > ul > li > :nth-child(2) {
+        flex: auto;
+    }
+    article h4 {
+        font-weight: 400;
+    }
+    time {
+        font-weight: 300;
+        font-size: 0.7em;
+        position: relative;
+        top: 0.3em;
+        float: right;
+    }
+
+
+    .descTitle{
+        font-size: 1.5em;
+        position: relative;
+        margin-left: 3em;
+    }
+
+    .desc > small {
+        font-weight: 300;
+        font-style: italic;
+        font-size: 1em;
+        position: relative;
+        margin-left: 6em;
+    }
+
+    h4 small {
+        font-size: 0.9em;
+
+    }
+    .desc li a, a > demo {
+        color:burlywood;
+    }
+    a {
+        cursor: pointer;
+    }
+    a > demo:hover {
+        color: inherit;
+    }
+    .desc li a {
+        font-weight: bold;
+    }
+
+    .summaryTitle{
+      font-size: 20PX;
+      font-style: oblique;
+      font-weight: 600;
+      position: relative;
+      margin-left: 5em;
+    }
+
+    .summaryContent{
+      font-size: 18px;
+      font-style: normal;
+      font-weight: normal;
+    }
