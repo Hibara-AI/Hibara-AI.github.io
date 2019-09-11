@@ -1,18 +1,4 @@
 
-a:hover {
-  color: #58c6ff;
-}
-
-.brand-logo{
-  position:absolute;
-  margin-top: 0.5em;
-}
-
-h4 {
-  font-family: serif;
-  font-style: oblique;
-}
-
     article{
       position: relative;
       margin-top: 2em;
@@ -35,13 +21,14 @@ h4 {
     article ul ul {
         list-style-type: none;
     }
-    article img {
-        width: 200px;
+
+    /*article img {
+        width: auto;
         height: auto;
         border-radius: 3px;
         position: relative;
         top: 0.5em;
-    }
+    }*/
     article > ul > li > :nth-child(1) {
         vertical-align: top;
         margin: 0 1em;
@@ -61,25 +48,30 @@ h4 {
         float: right;
     }
 
-
+    small{
+        font-size: 1.2em;
+        font-style: italic;
+    }
     .descTitle{
         font-size: 1.5em;
         position: relative;
         margin-left: 3em;
     }
 
-    .desc > small {
+    ./*desc > small {
         font-weight: 300;
         font-style: italic;
-        font-size: 1em;
+        font-size: 1.2em;
         position: relative;
         margin-left: 6em;
     }
 
     h4 small {
-        font-size: 0.9em;
+        font-size: 1.0em;
 
-    }
+    }*/
+
+
     .desc li a, a > demo {
         color:burlywood;
     }
@@ -97,12 +89,18 @@ h4 {
       font-size: 20PX;
       font-style: oblique;
       font-weight: 600;
-      position: relative;
-      margin-left: 5em;
     }
 
     .summaryContent{
       font-size: 18px;
-      font-style: normal;
       font-weight: normal;
+      font-style: oblique;
+    }
+
+    .rotate90 {
+        -webkit-transform: rotate(90deg);
+        -moz-transform: rotate(90deg);
+        -o-transform: rotate(90deg);
+        -ms-transform: rotate(90deg);
+        transform: rotate(90deg);
     }
