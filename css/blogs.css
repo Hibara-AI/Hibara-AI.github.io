@@ -37,9 +37,9 @@
     article > ul > li > :nth-child(2) {
         flex: auto;
     }
-    article h4 {
+    /*article h4 {
         font-weight: 400;
-    }
+    }*/
     time {
         font-weight: 300;
         font-size: 0.7em;
