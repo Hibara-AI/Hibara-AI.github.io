@@ -7,7 +7,7 @@
         display: flex;
         margin: 0 1em;
         list-style-type: none;
-        padding: 1.5em 0;
+        padding: 5em 0;
     }
     article > ul > li:not(:last-child) {
         border-width: 2px;
@@ -19,7 +19,7 @@
         margin-top: 1em;
     }
     article ul ul {
-        list-style-type: none;
+        /*list-style-type: none;*/
     }
 
     /*article img {
